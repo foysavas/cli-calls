@@ -1,0 +1,32 @@
+{
+  "name": "cli-calls",
+  "version": "1.0.0",
+  "description": "Quickly turn a JavaScript file into a CLI",
+  "main": "index.mjs",
+  "files": [
+    "index.mjs"
+  ],
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foysavas/cli-calls.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "type": "module",
+  "author": "Foy Savas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foysavas/cli-calls/issues"
+  },
+  "homepage": "https://github.com/foysavas/cli-calls#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
